@@ -38,6 +38,9 @@ $jumlah_article = $hasil1->num_rows;
                     <div class="p-3">
                         <span class="badge rounded-pill text-bg-danger fs-2"><?php //echo $jumlah_gallery; ?></span>
                     </div> 
+                    <div class="p-3">
+                        <span class="badge rounded-pill text-bg-danger fs-2"><?php echo $jumlah_article; ?></span>
+                    </div> 
                 </div>
             </div>
         </div>
